@@ -173,6 +173,20 @@ System.out.println(!true);//打印输出结果为false
 
 ## 选择结构Switch穿透语句
 
+```
+switch(变量){
+case 变量值1:
+    语句体1;
+    break;
+case 变量值2:
+    语句体2;
+    break;
+default:
+    语句体3;
+    break;
+}
+```
+
 ```java
 
 import java.util.Random;
